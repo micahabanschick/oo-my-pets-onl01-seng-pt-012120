@@ -66,10 +66,10 @@ class Owner
   
   def sell_pets
     Cat.all.map do |cat| 
-      cat.mood = "nervous" if cat.owner == self 
+      cat.mood = "nervous" && cat.owner = nil if cat.owner == self 
     end
     Dog.all.map do |dog| 
-      dog.mood = "nervous" if dog.owner == self 
+      dog.mood = "nervous" && dog.owner = nil if dog.owner == self 
     end
   end 
   
