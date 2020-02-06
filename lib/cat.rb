@@ -23,5 +23,7 @@ class Cat
     @@all.dup.freeze
   end 
   
+  #Associations
+  
   
 end
