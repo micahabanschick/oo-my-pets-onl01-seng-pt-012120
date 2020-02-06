@@ -41,8 +41,7 @@ class Owner
   #Associations
   
   def cats 
-    arr = Cat.all.filter{|cat| cat.owner == self}
-    arr
+    Cat.all.filter{|cat| cat.owner == self}
   end 
   
   def dogs 
