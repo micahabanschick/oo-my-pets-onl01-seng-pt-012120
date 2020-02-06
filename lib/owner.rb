@@ -65,6 +65,9 @@ class Owner
   end 
   
   def sell_pets
+    Cat.all.map do |cat| 
+      cat.mood = "nervous"
+    end
   end 
   
   def list_pets
