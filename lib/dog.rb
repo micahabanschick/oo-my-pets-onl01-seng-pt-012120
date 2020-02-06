@@ -23,4 +23,6 @@ class Dog
     @@all.dup.freeze
   end 
   
+  #Associations
+  
 end
