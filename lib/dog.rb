@@ -1,3 +1,5 @@
 class Dog
-  # code goes here
+  
+  att
+  
 end
