@@ -41,6 +41,7 @@ class Owner
   #Associations
   
   def cats 
+    Cat.all.map{|cat| cat.owner == self}
   end 
   
   def dogs 
