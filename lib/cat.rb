@@ -15,6 +15,9 @@ class Cat
     @@all << self 
   end 
   
+  def owner 
+    @owner = Owner.new
+  
   def name 
     @name.dup.freeze
   end 
