@@ -11,7 +11,7 @@ class Owner
   end 
   
   def save
-    @all << self 
+    @@all << self 
   end
   
   def name 
