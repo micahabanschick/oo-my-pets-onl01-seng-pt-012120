@@ -15,8 +15,9 @@ class Cat
     @@all << self 
   end 
   
-  def owner 
-    @owner = Owner.new
+  def owner=(owner) 
+    @owner = Owner.all.find{|own| own == owner}
+  end
   
   def name 
     @name.dup.freeze
