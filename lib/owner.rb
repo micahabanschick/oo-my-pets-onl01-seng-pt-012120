@@ -23,7 +23,7 @@ class Owner
   end 
   
   def say_species
-    @species.dup.freeze 
+    puts "I am a #{@species}." 
   end 
   
   def self.all 
