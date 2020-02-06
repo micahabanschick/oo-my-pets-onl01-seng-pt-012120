@@ -15,7 +15,6 @@ class Cat
     @@all << self 
   end 
   
-  
   def name 
     @name.dup.freeze
   end 
