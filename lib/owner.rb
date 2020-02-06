@@ -38,4 +38,6 @@ class Owner
     @@all = []
   end 
   
+  #Associations
+  
 end
