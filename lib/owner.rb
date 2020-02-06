@@ -45,6 +45,7 @@ class Owner
   end 
   
   def dogs 
+    Dog.all.filter{|dog| dog.owner == self}
   end 
   
   def buy_cat
