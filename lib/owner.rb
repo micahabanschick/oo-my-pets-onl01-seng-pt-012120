@@ -68,6 +68,9 @@ class Owner
     Cat.all.map do |cat| 
       cat.mood = "nervous" && cat.owner = nil if cat.owner == self 
     end
+    Dog.all.map do |dog| 
+      dog.mood = "nervous" && dog.owner = nil if dog.owner == self 
+    end
   end 
   
   def list_pets
