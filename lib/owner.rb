@@ -27,7 +27,7 @@ class Owner
   end 
   
   def self.all 
-    @@all.dup.freeze
+    @@all
   end 
   
   def self.count
